@@ -1,0 +1,17 @@
+int a;
+int fac()
+{
+    int b;
+    b=1+a;
+    return (b);
+}
+void main()
+{
+    scanf(a);
+    if(a){
+        printf(fac());
+    }
+    else{
+        printf(a);
+    }
+}
