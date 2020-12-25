@@ -29,9 +29,8 @@
   <dependency>
     <groupId>org.antlr</groupId>
     <artifactId>antlr4</artifactId>
-    <version>4.9</version>
+    <version>4.8</version>
   </dependency>
-
   </dependencies>
 
   <build>

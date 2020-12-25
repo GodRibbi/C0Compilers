@@ -100,7 +100,7 @@ public class C0ListenerImp extends C0BaseListener {
         orderList.add(new Order(line++,Fct.RET,0,0));
     }
     @Override public void exitIfsys(C0Parser.IfsysContext ctx) {
-        if(!ctx.elsesyss().isEmpty()){
+        if(ctx.elsesyss().isEmpty()){
             int index=ifindex.pop();
             orderList.get(index-1).setSed(orderList.size()+1);
         }
